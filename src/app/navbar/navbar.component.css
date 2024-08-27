@@ -22,4 +22,8 @@ nav {
     text-decoration: none;
     color: white;
   }
+
+  .nav-color {
+    color: black !important;
+  }
   
