@@ -1,0 +1,25 @@
+div {
+    padding: 5px;
+}
+p {
+    padding: 5px;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+p:hover {
+    color: black;
+    background-color: #f3c396;
+    border-radius: 5px ;
+    cursor:text;
+}
+
+.contact-details {
+    display: flex;
+}
+
+.contact {
+    font-size: 18px;
+    margin-right: 120px;
+}
