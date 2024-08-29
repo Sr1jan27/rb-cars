@@ -5,7 +5,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: #333;
+    background-color: #2A3132;
     color: white;
   }
   
@@ -27,18 +27,19 @@ nav {
   }
 
   .nav-color {
-    color: black !important;
+    color: #ffffff !important;
   }
 
 .navbar-brand {
     font-size: 30px;
     font-weight: 800;
+    color: #ffffff !important;
 }
 
 .dhruv-title{
     position: relative;
     top: 6px;
-    color: black;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 600;
 }

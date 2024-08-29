@@ -1,6 +1,15 @@
 footer {
-    background-color: #f8f9fa;
-    padding: 1rem 0; 
+    background-color: #2A3132;
+    color: white;
+    height: 80px;
     width: 100%;
+    display: flex;
+    justify-content: center;
     position: relative;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

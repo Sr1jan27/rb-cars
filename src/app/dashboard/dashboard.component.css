@@ -5,6 +5,16 @@
     overflow: hidden;
 }
 
+.d-flex {
+    background-color: #90AFC5;
+    color: black;
+}
+
 .flex-grow-1 {
     flex-grow: 1;
 }
+
+.services-col {
+    padding: 9px;
+}
+

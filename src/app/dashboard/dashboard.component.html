@@ -1,16 +1,16 @@
 <app-navbar></app-navbar>
 <div class="d-flex flex-column min-vh-100">
-    <div class="container flex-grow-1">
-        <div class="row">
-            <app-about></app-about>
-        </div>
-        <div class="row">
-            <div class="col">
+    <div class="container flex-grow-1 d-flex flex-column">
+        <div class="row flex-grow-1">
+            <div class="col about-col">
+                <app-about></app-about>
+            </div>
+            <div class="col services-col">
                 <app-services></app-services>
             </div>
-            <div class="col">
-                <app-contact></app-contact>
-            </div>
+        </div>
+        <div class="row">
+            <app-contact></app-contact>
         </div>
     </div>
     <app-footer></app-footer>
