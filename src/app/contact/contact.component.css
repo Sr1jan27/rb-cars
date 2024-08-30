@@ -8,6 +8,12 @@ p {
     list-style-type: none;
 }
 
+.background {
+    padding: 5px 15px;
+    background-color: #dcd4bc;
+    border-radius: 10px;
+}
+
 p:hover {
     color: black;
     background-color: #fde087;
