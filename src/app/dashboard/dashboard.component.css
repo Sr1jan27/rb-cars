@@ -6,7 +6,7 @@
 }
 
 .d-flex {
-    background-color: #90AFC5;
+    background-color: #d6eeff;
     color: black;
 }
 
@@ -16,5 +16,12 @@
 
 .services-col {
     padding: 9px;
+}
+
+.background-img {
+background-image: url('../../assets/insider.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
