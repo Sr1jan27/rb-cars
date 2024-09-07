@@ -1,30 +1,48 @@
 .dream {
-    background-color: #fde087;
-    border-radius: 5px;
-    font-size: 22px;
-    font-weight: bolder;
+  background-color: #fde087;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bolder;
 }
 
 .dream-container {
-  width: 1200px;
-  overflow: hidden;
+width: 100%;
+max-width: 1200px;
+overflow: hidden;
 }
 
 .moving-text {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: moveText 10s linear infinite alternate;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: moveText 10s linear infinite alternate;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(-100%);
   }
-  
-  @keyframes moveText {
-    0% {
-      transform: translateX(-100%);
-    }
-    50%{
-        transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
+  50% {
+    transform: translateX(0);
   }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (max-width: 576px) {
+.dream {
+  font-size: 18px;
+}
+
+.dream-container {
+  width: 100%;
+  max-width: 100%; 
+  margin: 0 auto; 
+}
+
+.moving-text {
+  font-size: 20px;
+  white-space: normal;
+}
+}
