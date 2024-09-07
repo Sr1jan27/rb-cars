@@ -43,4 +43,9 @@ nav {
     font-size: 14px;
     font-weight: 600;
 }
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
   
