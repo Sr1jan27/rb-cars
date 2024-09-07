@@ -13,8 +13,13 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
+a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(187, 187, 255);
+}
 a:hover {
     text-decoration: underline;
-    color: blue;
+    color: aquamarine;
 }

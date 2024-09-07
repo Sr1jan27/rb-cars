@@ -15,7 +15,7 @@ overflow: hidden;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  animation: moveText 10s linear infinite alternate;
+  animation: moveText 12s linear infinite alternate-reverse;
 }
 
 @keyframes moveText {
@@ -44,5 +44,6 @@ overflow: hidden;
 .moving-text {
   font-size: 20px;
   white-space: normal;
+  animation: moveText 8s linear infinite alternate;
 }
 }
