@@ -14,7 +14,7 @@
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    animation: moveText 20s linear infinite alternate;
+    animation: moveText 10s linear infinite alternate;
   }
   
   @keyframes moveText {
