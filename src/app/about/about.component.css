@@ -21,12 +21,15 @@ overflow: hidden;
 @keyframes moveText {
   0% {
     transform: translateX(-100%);
+    background-color: #868266;
   }
   50% {
     transform: translateX(0);
+    background-color: #f39d4c;
   }
   100% {
     transform: translateX(100%);
+    background-color: #c7f306;
   }
 }
 
