@@ -16,7 +16,7 @@ footer {
 a {
     font-size: 18px;
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(187, 187, 255);
 }
 a:hover {
